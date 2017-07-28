@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Core;
+
 class Request{
     public static function uri(){
         return trim(//去掉头尾的字符,第二个参数指定要去掉的字符
